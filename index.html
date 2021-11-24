@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Коэффициент срочной ликвидности</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Коэффициент срочной ликвидности</h1>
+    <p>Рассчитывается по формуле:</p>
+    <p>QR = (CA - Lnv) / CL</p>
+    <div class="top">
+    <label for="CA">CA:</label><input type="text" id = "CA" value = "">
+    <label for="Lnv">Lnv:</label><input  type="text" id = "Lnv" value = "">
+    <label for="CL">CL:</label><input  type="text" id = "CL" value = "">
+    </div>
+
+    <div class="end"><b>Ответ:</b>
+    <label for="QR">QR:</label><input type="end" id = "QR">
+    </div>
+
+    <div class="bottom">
+        <button id ="send">Вычислить</button>
+    </div>
+
+    <p>Где:<p>
+    <p>CA — оборотные активы</p>
+    <p>Lnv — товарные запасы</p>
+    <p>CL — краткосрочные обязательства</p>
+    <script src = "js.js"></script>
+</body>
+</html>
